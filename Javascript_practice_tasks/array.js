@@ -1,48 +1,33 @@
-// // Declare an array of 5 fruits
-// let fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry"];
+// const array = [0,0,0,0,0,0,0,0,0];
 
-// // Display the array
-// console.log(fruits);
+// const stringRandom ='9822215469871523';
 
-// // Change the second fruit to "Jambura"
-// fruits[1] = "Jambura";
-
-// // Display the array again
-// console.log(fruits);
-
-
-// Question 2
-
-// let tourist = ["Cox's Bazar", "Sajek", "Bandarban"];
-
-// tourist.push("Rangamati");
-// tourist.push("Kuakata");
-// tourist.pop();
-// console.log(tourist)
-
-
-// Question 3
-
-// var books = ["Harry potter" , "The world", "Mission Back"];
-// if(books.includes("Harry potter")){
-//     console.log("Harry potter is present")
+// for(let i=0;i<stringRandom.length;i++)
+// {
+//     const currentElement = stringRandom[i];
+//     array[currentElement]++;
 // }
 
-// question 4
+// console.log(array);
+
+const number = [10,20,55,65,45,27];
+
+let target=55;
 
 
-// var Badar = "Badar";
-// var age = 20;
-// var cgpa = 3.88;
-// var arr = [3.88, "Badar" , "Hossain "];
+while(true)
+{
+    const firstElement = number[0];
 
-// console.log(Array.isArray(arr))
+    if(firstElement==target)
+    {
+        break;
+    }
+    else
+    {
+        const extractedElement = number.shift();
+        number.push(extractedElement);
+    }
+}
 
-// Question 5
-
-// var arr1 = ["B", "a" , "d" , "a", "r"];
-// var arr2 = [1 ,2 , 3, 4,5 ];
-// var arr3 = arr1.concat(arr2);
-// console.log(arr3);
-
-
+console.log(number);
