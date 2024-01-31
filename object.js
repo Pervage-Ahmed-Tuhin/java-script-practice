@@ -68,6 +68,7 @@ console.log("The  Number of property is:",count);
 
 //p-Loop through the object and print the key value pair of the object
 
+/*
 let myObject = {
 
     name: 'John Doe',
@@ -80,3 +81,5 @@ for(const prop in myObject)
 {
     console.log("key:",prop,"|","type:",typeof(myObject[prop]));
 }
+*/
+
