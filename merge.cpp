@@ -80,7 +80,7 @@ int main()
     int arr[] = {57, 1, 65, 10, 5, 6, 3, 2, 1};
 
     int lb = 0;
-    int ub = 8;
+    int ub = sizeof(arr)/sizeof(arr[0])-1;
 
     cout << "The array before sorting is :" << endl;
     for (int i = 0; i <= ub; i++)
